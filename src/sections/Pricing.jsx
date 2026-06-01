@@ -35,12 +35,14 @@ const Pricing = () => {
                         <img src="/images/bg-outlines.svg"
                         width={960}
                         height={380}
-                        alt="outline"
+                        alt=""
+                        aria-hidden="true"
                         className='relative z-2' />
                         <img src="/images/bg-outlines-fill.png"
                         width={960}
                         height={380}
-                        alt="outline"
+                        alt=""
+                        aria-hidden="true"
                         className='absolute inset-0 opacity-5 mix-blend-soft-light'
                         />
                     </div>
@@ -91,7 +93,8 @@ const Pricing = () => {
                                         key={feature}
                                         className='relative flex items-center gap-5'
                                     >
-                                        <img src={"/images/check.png"} alt="check"
+                                        <img src={"/images/check.png"} alt=""
+                                        aria-hidden="true"
                                         className='size-10 object-contain' />
                                         <p className="flex-1">
                                             {feature}
@@ -107,7 +110,7 @@ const Pricing = () => {
                             </div>
                             {index === 1 && (
                                 <p className='small-compact mt-9 text-center text-p3 before:content-["-"] before:mx-2.5 after:mx-2.5 after:content-["-"]'>
-                                    Oferta de tempo Limitado
+                                    Oferta por tempo limitado
                                 </p>
                             )}
                         </div>

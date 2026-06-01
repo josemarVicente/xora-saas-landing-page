@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1 className="mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12">
                         Incrivelmente simples
                     </h1>
-                    <p className='max-w-440 mb-14 body-1 max-md:mb-10'>Nós projetamos o XORA IA Editor de Vídeos para ser fácil de usar, rápido de aprender e muito poderoso.
+                    <p className='max-w-440 mb-14 body-1 max-md:mb-10'>Projetámos o editor de vídeo Xora com IA para ser fácil de usar, rápido de aprender e muito poderoso.
                     </p>
                     <LinkScroll
                     to="recursos"
@@ -25,7 +25,7 @@ const Hero = () => {
                 </div>
 
                 <div className='absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res'>
-                    <img src="/images/hero.png" className='size-1230 max-lg:h-auto' alt="hero" />
+                    <img src="/images/hero.png" className='size-1230 max-lg:h-auto' alt="Pré-visualização do editor de vídeo Xora" />
 
                 </div>
             </div>

@@ -1,10 +1,17 @@
+export const navLinks = [
+  { to: 'recursos', label: 'Recursos' },
+  { to: 'preços', label: 'Preços' },
+  { to: 'faq', label: 'FAQ' },
+  { to: 'download', label: 'Download' },
+];
+
 export const features = [
     {
       id: '0',
       icon: '/images/feature-1.png',
       caption: 'Fácil Integração',
       title: 'Planejamento Simplificado',
-      text: "O Xora oferece uma interface de planejamento que permite organizar tarefas, alocar recursos e definir prazos de maneira eficiente. Com visualizações personalizáveis, você pode acompanhar o progresso e garantir que sua equipe esteja alinhada.",
+      text: 'O Xora oferece uma interface de planeamento que permite organizar tarefas, alocar recursos e definir prazos de forma eficiente. Com visualizações personalizáveis, podes acompanhar o progresso e garantir que a tua equipa está alinhada.',
       button: {
         icon: '/images/magictouch.svg',
         title: 'Ver Demonstração',
@@ -15,7 +22,7 @@ export const features = [
       icon: '/images/feature-2.png',
       caption: 'Seguro e confiável',
       title: 'Priorizamos a sua segurança',
-      text: 'Levamos a sua segurança a sério. Todos os dados são criptografados e armazenados com segurança para garantir a conformidade com os regulamentos de privacidade. Tenha a tranquilidade de que suas informações estão protegidas.',
+      text: 'Levamos a tua segurança a sério. Todos os dados são encriptados e armazenados com segurança para garantir conformidade com a privacidade. Fica descansado: as tuas informações estão protegidas.',
       button: {
         icon: '/images/docs.svg',
         title: 'Ler Documentação',
@@ -27,22 +34,22 @@ export const features = [
     {
       id: '0',
       icon: '/images/detail-1.png',
-      title: 'Edição de vídeos com recurso a IA',
+      title: 'Edição de vídeo com IA',
     },
     {
       id: '1',
       icon: '/images/detail-2.png',
-      title: 'Colaboração em Tempo Real',
+      title: 'Colaboração em tempo real',
     },
     {
       id: '2',
       icon: '/images/detail-3.png',
-      title: 'Serviço de Cloud-Engine',
+      title: 'Plataforma na nuvem',
     },
     {
       id: '3',
       icon: '/images/detail-4.png',
-      title: 'Suporte ao Cliente 24/7',
+      title: 'Suporte ao cliente 24/7',
     },
   ];
 
@@ -51,61 +58,61 @@ export const features = [
       id: '0',
       question: 'Quão fácil é configurar o Xora?',
       answer:
-        'O Xora foi projetado para ser intuitivo. Você pode começar a usá-lo em minutos com nosso guia de configuração fácil de seguir.',
+        'O Xora foi concebido para ser intuitivo. Podes começar a usá-lo em minutos com o nosso guia de configuração fácil de seguir.',
     },
     {
       id: '1',
       question: 'Posso integrar o Xora com outras plataformas?',
       answer:
-        'Sim, o Xora suporta integrações com várias plataformas, permitindo que você conecte suas ferramentas existentes de forma fluida.',
+        'Sim, o Xora suporta integrações com várias plataformas, permitindo ligar as tuas ferramentas existentes de forma fluida.',
     },
     {
       id: '2',
-      question: 'Com que frequência vocês adicionam novos conteúdos?',
+      question: 'Com que frequência adicionam novos conteúdos?',
       answer:
-        'Lançamos atualizações e novos recursos regularmente para garantir que você sempre tenha acesso às ferramentas mais recentes.',
+        'Lançamos atualizações e novos recursos regularmente para garantir que tens sempre acesso às ferramentas mais recentes.',
     },
     {
       id: '3',
       question: 'Qual é a política de reembolso?',
       answer:
-        'Oferecemos uma garantia de devolução do dinheiro em 30 dias caso você não esteja satisfeito com a sua assinatura.',
+        'Oferecemos uma garantia de reembolso de 30 dias caso não fiques satisfeito com a tua subscrição.',
     },
     {
       id: '4',
-      question: 'Vocês têm planos corporativos?',
+      question: 'Têm planos corporativos?',
       answer:
-        'Sim, oferecemos planos personalizados para empresas de todos os tamanhos. Entre em contato conosco para obter um pacote sob medida.',
+        'Sim, oferecemos planos personalizados para empresas de todos os tamanhos. Contacta-nos para obter um pacote à medida.',
     },
     {
       id: '5',
-      question: 'O que acontece quando meu armazenamento está cheio?',
+      question: 'O que acontece quando o meu armazenamento está cheio?',
       answer:
-        'Você pode facilmente atualizar seu plano para obter mais espaço ou remover arquivos antigos para liberar espaço.',
+        'Podes atualizar facilmente o teu plano para obter mais espaço ou remover ficheiros antigos para libertar armazenamento.',
     },
     {
       id: '6',
-      question: 'Posso atualizar meu plano?',
+      question: 'Posso atualizar o meu plano?',
       answer:
-        'Com certeza! Você pode atualizar seu plano a qualquer momento e começar a desfrutar de recursos adicionais imediatamente.',
+        'Com certeza! Podes atualizar o teu plano a qualquer momento e começar a usufruir de recursos adicionais de imediato.',
     },
     {
       id: '7',
-      question: 'Como convido minha equipe?',
+      question: 'Como convido a minha equipa?',
       answer:
-        'Basta ir à seção "Equipe" no seu painel e enviar convites por e-mail.',
+        'Basta ir à secção «Equipa» no teu painel e enviar convites por e-mail.',
     },
     {
       id: '8',
-      question: 'Vocês oferecem treinamento para indivíduos e equipes?',
+      question: 'Oferecem formação para indivíduos e equipas?',
       answer:
-        'Sim, fornecemos materiais de treinamento abrangentes e sessões ao vivo para ajudar você e sua equipe a aproveitarem ao máximo o Xora.',
+        'Sim, fornecemos materiais de formação abrangentes e sessões ao vivo para ajudar-te a ti e à tua equipa a tirar o máximo partido do Xora.',
     },
     {
       id: '9',
       question: 'Estou bloqueado fora da minha conta, o que devo fazer?',
       answer:
-        'Clique em "Esqueceu a senha" na página de login ou entre em contato com nossa equipe de suporte para receber assistência.',
+        'Clica em «Esqueci-me da palavra-passe» na página de início de sessão ou contacta a nossa equipa de suporte para receberes assistência.',
     },
   ];
 
@@ -117,9 +124,9 @@ export const features = [
       priceYearly: 120,
       caption: 'Ideal para freelancers',
       features: [
-        '100MB de armazenamento em Cloud',
+        '100 MB de armazenamento na nuvem',
         '100 modelos de prompt',
-        '5 projectos',
+        '5 projetos',
         'Suporte 24/7',
       ],
       icon: '/images/circle.svg',
@@ -132,10 +139,10 @@ export const features = [
       priceYearly: 590,
       caption: 'Plano mais popular',
       features: [
-        'Todo plano essencial',
-        '1TB de armazenamento adicional',
-        'Projectos ilimitados',
-        'Analytics',
+        'Tudo do plano Essencial',
+        '1 TB de armazenamento adicional',
+        'Projetos ilimitados',
+        'Análises',
       ],
       icon: '/images/triangle.svg',
       logo: '/images/plan-2.png',
@@ -164,7 +171,7 @@ export const features = [
       role: 'Globalnomads',
       avatarUrl: '/images/testimonials/jessica-saunders.png',
       comment:
-        "O suporte ao cliente do Xora é um dos melhores! Eles são os meus super-heróis tecnologicos, sempre lá quando preciso.",
+        'O suporte ao cliente do Xora é um dos melhores! São os meus super-heróis tecnológicos, sempre presentes quando preciso.',
     },
     {
       id: '1',
@@ -180,7 +187,7 @@ export const features = [
       role: 'Cyberleap',
       avatarUrl: '/images/testimonials/melanie-hurst.png',
       comment:
-        "Adotar este software foi como um refresco. Tornou o nosso trabalho muito mais simples",
+        'Adotar este software foi um alívio. Tornou o nosso trabalho muito mais simples.',
     },
     {
       id: '3',
@@ -188,7 +195,7 @@ export const features = [
       role: 'Cyberleap',
       avatarUrl: '/images/testimonials/alicia-barker.png',
       comment:
-        "A plataforma é intuitiva e oferece um ótimo suporte. Recomendo para equipes que buscam eficiência.",
+        'A plataforma é intuitiva e oferece um ótimo suporte. Recomendo para equipas que procuram eficiência.',
     },
     {
       id: '4',
@@ -196,7 +203,7 @@ export const features = [
       role: 'Floclips',
       avatarUrl: '/images/testimonials/becky-snider.png',
       comment:
-        "Mudei para o Xora no mês passadp, e já consigo ver resultados. Foi a melhor decisão para a nossa equipa!",
+        'Mudei para o Xora no mês passado e já consigo ver resultados. Foi a melhor decisão para a nossa equipa!',
     },
     {
       id: '5',
@@ -377,7 +384,7 @@ export const features = [
   export const links = [
     {
       id: '0',
-      title: 'Ios',
+      title: 'iOS',
       icon: <Ios />,
       url: '#',
     },

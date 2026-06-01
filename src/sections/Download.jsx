@@ -16,7 +16,7 @@ const Download = () => {
                                 src="/images/xora.svg"
                                 width={160}
                                 height={55}
-                                alt="xora" />
+                                alt="Logótipo Xora" />
 
                             </div>
                             <p className='body-1 mb-10 max-w-md'>
@@ -32,7 +32,8 @@ const Download = () => {
                                                 <Marker />
                                             </span>
 
-                                            <img src={"/images/lines.svg"} alt="lines"
+                                            <img src={"/images/lines.svg"} alt=""
+                                            aria-hidden="true"
                                             className='absolute size-13/20 object-contain' />
 
                                             <span className='download_tech-icon'>
@@ -52,7 +53,7 @@ const Download = () => {
                                     <span className='download_preview-dot left-16 bg-p1/15'></span>
 
                                     <img src="/images/screen.jpg"
-                                    alt="screen"
+                                    alt="Captura de ecrã da aplicação Xora"
                                     width={855}
                                     height={655}
                                     className='rounded-xl' />
